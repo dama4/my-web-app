@@ -4,13 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
+  "dependencies": {},
   "keywords": [],
   "author": "",
-  "license": "ISC"
-}
-{
+  "license": "ISC",
   "features": {
     "containerd-snapshotter": true
   },
