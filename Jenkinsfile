@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKER_IMAGE = 'damars4/my-web-app'      // change this
-        DOCKER_CREDENTIALS_ID = 'niyomukiza250@'         // change to your Jenkins credentials ID
+        DOCKER_CREDENTIALS_ID = 'docker-hub-credentials'         // change to your Jenkins credentials ID
     }
 
     stages {
@@ -42,4 +42,5 @@ pipeline {
 
     }
 }
+
 
