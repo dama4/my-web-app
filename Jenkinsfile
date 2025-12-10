@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = 'your_dockerhub_username/my-web-app'      // change this
-        DOCKER_CREDENTIALS_ID = 'docker-hub-credentials'         // change to your Jenkins credentials ID
+        DOCKER_IMAGE = 'damars4/my-web-app'      // change this
+        DOCKER_CREDENTIALS_ID = 'niyomukiza250@'         // change to your Jenkins credentials ID
     }
 
     stages {
@@ -42,3 +42,4 @@ pipeline {
 
     }
 }
+
