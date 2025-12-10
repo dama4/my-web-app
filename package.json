@@ -10,3 +10,9 @@
   "author": "",
   "license": "ISC"
 }
+{
+  "features": {
+    "containerd-snapshotter": true
+  },
+  "experimental": true
+}
